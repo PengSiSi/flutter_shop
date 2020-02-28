@@ -4,6 +4,7 @@ import 'home_page.dart';
 import 'cart_page.dart';
 import 'category_page.dart';
 import 'member_page.dart';
+import 'login_page.dart';
 
 class IndexPage extends StatefulWidget {
   @override
@@ -34,7 +35,8 @@ class _IndexPageState extends State<IndexPage> {
     HomePage(),
     CategoryPage(),
     CartPage(),
-    MemberPage()
+    LoginPage(),
+//    MemberPage()
   ];
 
   int currentIndex = 0;

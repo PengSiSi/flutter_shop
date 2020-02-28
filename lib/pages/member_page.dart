@@ -4,9 +4,8 @@ class MemberPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('MemberPage'),
-      ),
+      appBar: AppBar(title: Text('我的'),),
+      body: Container(),
     );
   }
 }
