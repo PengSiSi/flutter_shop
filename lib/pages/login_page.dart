@@ -44,11 +44,11 @@ class _BodyState extends State<Body> {
     if(_formKey.currentState.validate()) {
       _formKey.currentState.save();
     }
-//    Navigator.push(
-//      context,
-//      MaterialPageRoute(builder: (context) => RegisterPage()),
-//    );
-    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>MemberPage()));
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => MemberPage()),
+    );
+//    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>MemberPage()));
   }
 
   @override

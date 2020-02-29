@@ -27,6 +27,25 @@ dependencies:
   cupertino_icons: ^0.1.2
   flutter_webview_plugin: 0.3.3
   dio: ^3.0.8
+  bot_toast: ^2.1.1
+  cached_network_image: ^2.0.0-rc.1
+  carousel_slider: ^1.3.1
+  cookie_jar: ^1.0.1
+  flutter_appauth: ^0.8.1
+  flutter_redux: ^0.5.3
+  functional_data: ^0.2.3
+  image_picker: ^0.6.1+3
+  injector: ^1.0.8
+  json_annotation: ^3.0.1
+  logging: ^0.11.3+2
+  meta: ^1.1.6
+  package_info: ^0.4.0+6
+  provider: ^3.1.0
+  redux: ^3.0.0
+  redux_logging: ^0.3.0
+  redux_persist: ^0.8.2
+  redux_persist_flutter: ^0.8.1
+  video_player: ^0.10.1+6
 
 dev_dependencies:
   flutter_test:
